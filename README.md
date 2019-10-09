@@ -1,3 +1,13 @@
+# React Video Component
+
+A video control React component powered by video.js.
+
+## Goals
+
+- Provide API to add annotation to a video at a certain time and save to external storage.
+- Use React hooks as much as possible.
+- Use Typescript.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
