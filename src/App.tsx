@@ -16,13 +16,17 @@ const sampleVideoOptions = {
 };
 
 const App: React.FC = () => {
+  const handler = {
+    handleTime: (time: number) => console.log(time)
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <section>
-        <VideoPlayer videoOptions={sampleVideoOptions} />
+        <VideoPlayer videoOptions={sampleVideoOptions} videoHandler={handler} />
       </section>
     </div>
   );

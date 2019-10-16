@@ -10,6 +10,10 @@ A video control React component powered by video.js.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODOS
+
+[ ] provide an API to save current video time with its associated data to external storages(redis, mongo, etc)
+
 ## Available Scripts
 
 In the project directory, you can run:
